@@ -1,0 +1,20 @@
+{
+  "name": "pilot-sea-sim",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "引航登离轮海况推演系统 — TypeScript + WebGPU 方向谱 FFT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "node --test --experimental-strip-types \"test/*.test.ts\"",
+    "test:acceptance": "node --test --experimental-strip-types test/acceptance.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.7",
+    "@webgpu/types": "0.1.51",
+    "typescript": "5.6.3",
+    "vite": "5.4.11"
+  }
+}
